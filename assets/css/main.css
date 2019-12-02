@@ -177,6 +177,7 @@ input, select, textarea {
 		padding-left: 10px;
 		padding-right: 10px;
 		margin-top: 20px;
+		margin-bottom: 40px;
 	}
 	.downloadlink:hover {
 		background-color: #888888;
@@ -273,6 +274,7 @@ input, select, textarea {
 		-webkit-animation: slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 				animation: slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	}
+
 
 	@-webkit-keyframes slide-in-right {
 		0% {
@@ -980,6 +982,7 @@ input, select, textarea {
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
+
 
 		}
 
