@@ -167,6 +167,30 @@ input, select, textarea {
 		}
 	}
 
+	.downloadlink {
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		background-color: #333333;
+		border-radius: 10px;
+		border: 2px solid #333333;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 20px;
+	}
+	.downloadlink:hover {
+		background-color: #888888;
+	}
+	.downloadlink:active {
+		background-color: #dddddd;
+	}
+
+	.downloadcontainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.rotate {
 		transform: rotate(180deg);
 		width: 400px !important;
