@@ -166,6 +166,12 @@ input, select, textarea {
 			transform: scale(1) rotate(360deg);
 		}
 	}
+
+	.rotate {
+		transform: rotate(180deg);
+		width: 400px !important;
+		margin-top: 40px;
+	}
 	.projlink {
 		color: #39454b;
 		text-decoration: none;
@@ -194,7 +200,7 @@ input, select, textarea {
 		height: 100%;
 	  }
 	  .projcontainer1 {
-margin: 10px;
+		margin: 10px;
 	  }
 	  .line {
 		  margin-bottom: 5px;
@@ -1049,6 +1055,7 @@ margin: 10px;
 				}
 
 		}
+		
 
 /* Button */
 
@@ -1065,7 +1072,7 @@ margin: 10px;
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #353535;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -1122,7 +1129,7 @@ margin: 10px;
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #aaaaaa;
 		}
 
 		input[type="button"]:active,
@@ -1130,7 +1137,7 @@ margin: 10px;
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #cccccc;
 		}
 
 		input[type="button"].style2,
